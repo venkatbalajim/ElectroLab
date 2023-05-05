@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>ElectroLab - Login</title>
+        <link rel="stylesheet" href="../style.css">
+        <meta charset="UTF-8">
+        <script src="../script.js"></script>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script src="https://kit.fontawesome.com/9d7e476fc8.js" crossorigin="anonymous"></script>
+        <link rel="icon" type="image/x-icon" href="images/electrolab-title-logo.png">
+    </head>
+    <body id="login-signup-page" style="margin-top: 110px;">
+        <div >
+            <fieldset id="login-box" style="width: 40%;">
+                <legend style="font-size: 40px;">&nbsp;Login&nbsp;</legend>
+                <form>
+                    <br>
+                    <div style="text-align: left; margin-left: 50px;">
+                        <label name="email" style="font-size: 25px;">Email ID : </label>
+                        <input type="email" placeholder="Eg : abc@gmail.com" name="email" class="sign-up-input" autocomplete="off" required>
+                    </div>
+                    <br>
+                    <div style="text-align: left; margin-left: 50px;">
+                        <label name="password" style="font-size: 25px;">Password : </label>
+                        <input type="password" name="password" id="pass" class="sign-up-input" autocomplete="off" required style="width: 285px;">
+                        <i class="far fa-eye" style="margin-left: -35px; cursor: pointer; color: gray;" onclick="passwordShow()"></i>
+                    </div>
+                    <br><br>
+                    <button type="submit" class="login-signup-buttons">Submit</button>&nbsp;&nbsp;&nbsp;
+                    <button type="reset" class="login-signup-buttons">Clear</button>
+                    <br><br>
+                    <p style="text-align: center; color: black; font-size: 18px;">If you don't have an account, <a href="sign-up-page.html" target="_blank" id="create">create an account</a></p>
+                    <br>
+                </form>
+            </fieldset>
+        </div>
+    </body>
+</html>

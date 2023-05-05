@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="../style.css">
+    <script src="../script.js"></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ElectroLab - Sign Up</title>
+    <script src="https://kit.fontawesome.com/9d7e476fc8.js" crossorigin="anonymous"></script>
+    <link rel="icon" type="image/x-icon" href="images/electrolab-title-logo.png">
+</head>
+<body id="login-signup-page">
+    <div style="margin-top: 60px;">
+        <fieldset id="login-box" style="width: 70%;">
+            <legend style="font-size: 40px;">&nbsp;Sign Up&nbsp;</legend>
+            <form>
+                <div class="sign-up-container">
+                    <div style="width: 300px; height: 100px;">
+                        <p class="sign-up-label">First Name<br>
+                            <input type="text" name="firstname" class="sign-up-input" placeholder="Enter First Name" autocomplete="off" required>
+                        </p>
+                    </div>
+                    <div style="width: 300px; height: 100px;">
+                        <p class="sign-up-label">Last Name<br>
+                            <input type="text" name="lastname" class="sign-up-input" placeholder="Enter Last Name" autocomplete="off" required>
+                        </p>
+                    </div>
+                </div>
+                <div class="sign-up-container">
+                    <div style="width: 300px; height: 100px;">
+                        <p class="sign-up-label">Date of Birth<br>
+                            <input type="date" name="dob" class="sign-up-input" autocomplete="off" required>
+                        </p>
+                    </div>
+                    <div style="width: 300px; height: 100px;">
+                        <p class="sign-up-label">Email ID<br>
+                            <input type="email" name="emailid" class="sign-up-input" placeholder="Enter Email ID" autocomplete="off" required>
+                        </p>
+                    </div>
+                </div>
+                <div class="sign-up-container">
+                    <div style="width: 300px; height: 100px;">
+                        <p class="sign-up-label">Create Password<br>
+                            <input type="password" id="pass" class="sign-up-input" style="width: 294px;" required>
+                            <i class="far fa-eye" style="margin-left: -38px; cursor: pointer; color: gray;" onclick="passwordShow()"></i>
+                        </p>
+                    </div>
+                    <div style="width: 300px; height: 100px;">
+                        <p class="sign-up-label">Mobile Number<br>
+                            <input type="tel" name="mobilenumber" class="sign-up-input" placeholder="Eg : 123-456-7890" autocomplete="off" required>
+                        </p>
+                    </div>
+                </div>
+                <br><br>
+                <div style="text-align: center;">
+                    <button onclick="passwordCheck()" class="login-signup-buttons">Submit</button>
+                    &nbsp;&nbsp;
+                    <button class="login-signup-buttons" type="reset">Clear</button>
+                </div>
+                <br>
+            </form>
+        </fieldset>
+    </div>
+</body>
+</html>

@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="../style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ElectroLab - Contact Us</title>
+    <link rel="icon" type="image/x-icon" href="images/electrolab-title-logo.png">
+</head>
+<body id="login-signup-page">
+    <div>
+        <fieldset id="contact-us" style="margin-top: 30px;">
+            <legend style="font-size: 25px; text-align: center;">&nbsp;&nbsp;Contact Us&nbsp;&nbsp;</legend>
+            <form style="margin: 10px;">
+                <br>
+                <label name="name" style="font-size: 18px;">Name : </label>
+                <input type="text" placeholder="Eg : John Wick" name="name" style="height: 30px; padding: 5px; width: 200px;">
+                <br><br>
+                <label name="email" style="font-size: 18px;">Email ID : </label>
+                <input type="email" placeholder="Eg : abc@gmail.com" name="email" style="height: 30px; padding: 5px; width: 200px;">
+                <br><br>
+                <label name="satisfaction" style="font-size: 18px;">
+                    How satisfied you are by using our webpage ? 
+                </label><br>
+                <input class="satisfaction" type="radio" name="satisfaction" value="excellent">
+                <label style="color: black;">Excellent</label><br>
+                <input class="satisfaction" type="radio" name="satisfaction" value="just-satisfied">
+                <label style="color: black;">Just Satisfied</label><br>
+                <input class="satisfaction" type="radio" name="satisfaction" value="okay">
+                <label style="color: black;">Okay</label><br>
+                <input class="satisfaction" type="radio" name="satisfaction" value="not-bad">
+                <label style="color: black;">Not Bad</label><br>
+                <input class="satisfaction" type="radio" name="satisfaction" value="very-bad">
+                <label style="color: black;">Very Bad</label><br>
+                <br>
+                <label name="enquiry" style="font-size: 18px;">Thoughts and Queries :-</label><br><br>
+                <textarea id="thoughts" name="enquiry" cols="52" rows="5" placeholder="Please tell us your feedback or ask your queries to us here ..." style="overflow: auto;"></textarea>
+                <br><br><br>
+                <div style="text-align: center;">
+                    <button type="submit" class="login-signup-buttons">Submit</button>&nbsp;&nbsp;&nbsp;
+                    <button type="reset" class="login-signup-buttons">Clear</button>
+                </div>
+                <br>
+            </form>
+        </fieldset>
+    </div>
+</body>
+</html>
