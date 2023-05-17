@@ -15,3 +15,10 @@ function passwordCheck() {
         window.alert("Account created successfully.\nPlease close this tab and login your account.");
     }
 }
+
+function mailCheck() {
+    var b = document.getElementById("mail").value;
+    if (!/[@]/.test(x)) {
+        window.alert("Enter valid Email ID.");
+    }
+}
